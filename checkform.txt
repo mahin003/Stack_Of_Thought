@@ -1,0 +1,11 @@
+var pwd = document.getElementById("pwd");
+var repwd= document.getElementById("repwd");
+
+function checkvalidity(){
+	console.log("aise");
+	if(pwd!=repwd){
+		alert("incoorect password");
+		return false;
+	}
+	return true;
+}
